@@ -1,4 +1,14 @@
+using BTL_QuanLiBanSach.Configuration;
+using BTL_QuanLiBanSach.Repositories;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<ProductRepository>();
+builder.Services.AddControllers();
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+        .LogTo(Console.WriteLine, LogLevel.Information) // log SQL
+        .EnableSensitiveDataLogging());
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -6,11 +16,14 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
+
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+app.MapControllers();
 
 app.UseHttpsRedirection();
 
