@@ -1,4 +1,5 @@
 using BTL_QuanLiBanSach.Repositories;
+using BTL_QuanLiBanSach.Services;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,24 +9,18 @@ namespace BTL_QuanLiBanSach.Controllers;
 [Route("/product")]
 public class ProductController : ControllerBase
 {
-    private readonly ProductRepository _repository;
+    private readonly ProductService _productService;
 
-    public ProductController(ProductRepository repository)
+    public ProductController(ProductService productService)
     {
-        _repository = repository;
+        _productService = productService;
     }
-
-    // [HttpGet]
-    // public async Task<IActionResult> FindAll()
-    // {
-    //     var products = await _repository.FindAll();
-    //     return Ok(products);
-    // }
+    
 
     [HttpGet]
-    public async Task<IActionResult> FindAll()
+    public IActionResult FindAll()
     {
-        var products = await _repository.FindAll();
+        var products = _productService.FindAll();
         return Ok(products);
     }
 }

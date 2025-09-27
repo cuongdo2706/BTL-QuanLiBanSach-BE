@@ -15,6 +15,10 @@ public class ProductRepository
 
     public async Task<List<Product>> FindAll()
     {
-        return await _context.Products.ToListAsync();
+        return await _context.Products
+            .Include(p => p.Authors)
+            .Include(p => p.Categories)
+            .Include(p => p.Publisher)
+            .ToListAsync();
     }
 }

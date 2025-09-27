@@ -23,10 +23,29 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Product>()
             .HasMany(p => p.Categories)
             .WithMany(c => c.Products)
-            .UsingEntity(j=>j.ToTable("tbl_product_category"));
+            .UsingEntity<Dictionary<string, object>>(
+                "tbl_product_category",
+                j => j
+                    .HasOne<Category>()
+                    .WithMany()
+                    .HasForeignKey("category_id"),
+                j => j
+                    .HasOne<Product>()
+                    .WithMany()
+                    .HasForeignKey("product_id")
+            );
         modelBuilder.Entity<Product>()
             .HasMany(p => p.Authors)
             .WithMany(a => a.Products)
-            .UsingEntity(j=>j.ToTable("tbl_product_author"));
+            .UsingEntity<Dictionary<string, object>>(
+                "tbl_product_author",
+                j => j
+                    .HasOne<Author>()
+                    .WithMany()
+                    .HasForeignKey("author_id"),
+                j => j
+                    .HasOne<Product>()
+                    .WithMany()
+                    .HasForeignKey("product_id"));
     }
 }

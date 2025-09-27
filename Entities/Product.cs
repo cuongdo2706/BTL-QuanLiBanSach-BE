@@ -21,13 +21,13 @@ public class Product
     [Column("price",TypeName = "decimal(19,2)")] [Required] public decimal Price { get; set; }
     [Column("public_id")] public string? PublicId { get; set; }
     [Column("published_year")] public int? PublishedYear { get; set; }
-    [Column("quantity")] [Required] public int? Quantity { get; set; }
+    [Column("quantity")] [Required] public int Quantity { get; set; }
     [Column("translator")] public string? Translator { get; set; }
     [Column("publisher_id")] public long PublisherId { get; set; }
 
     [ForeignKey(nameof(PublisherId))]
     [Required]
-    public virtual Publisher Publisher { get; set; }
+    public virtual Publisher? Publisher { get; set; }
 
     public List<Category> Categories { get; set; } = new List<Category>();
     public List<Author> Authors { get; set; } = new List<Author>();

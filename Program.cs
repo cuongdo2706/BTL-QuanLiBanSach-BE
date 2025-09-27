@@ -1,10 +1,14 @@
 using BTL_QuanLiBanSach.Configuration;
 using BTL_QuanLiBanSach.Repositories;
+using BTL_QuanLiBanSach.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<ProductRepository>();
-builder.Services.AddControllers();
+builder.Services.AddScoped<ProductService>();
+builder.Services.AddControllers().AddJsonOptions(x =>
+    x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles
+);;
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
         .LogTo(Console.WriteLine, LogLevel.Information) // log SQL
