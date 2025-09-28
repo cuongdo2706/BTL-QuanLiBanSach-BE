@@ -1,3 +1,4 @@
+using BTL_QuanLiBanSach.DTOs.Request;
 using BTL_QuanLiBanSach.DTOs.Response;
 using BTL_QuanLiBanSach.Mapper;
 using BTL_QuanLiBanSach.Repositories;
@@ -13,8 +14,8 @@ public class ProductService
         _productRepository = productRepository;
     }
 
-    public List<ProductResponse> FindAll()
+    public List<ProductResponse> SearchProduct(ProductFilterRequest request)
     {
-        return ProductMapper.ToProductResponses(_productRepository.FindAll().Result);
+        return ProductMapper.ToProductResponses(_productRepository.SearchProduct(request).Result);
     }
 }

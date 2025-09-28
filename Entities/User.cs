@@ -17,10 +17,7 @@ public class User
     [Column("email")] public string? Email { get; set; }
     [Column("gender")] public bool? Gender { get; set; }
     [Column("phone_num")] public string? PhoneNum { get; set; }
-    [Column("img_url")] public string ImgUrl { get; set; }
-    [Column("public_id")] public string PublicId { get; set; }
     [Column("name")] [Required] public string Name { get; set; }
-    [Column("is_active")] public bool IsActive { get; set; }
     [Column("is_deleted")] public bool IsDeleted { get; set; }
     [Column("user_type")] [Required] public bool UserType { get; set; }
     

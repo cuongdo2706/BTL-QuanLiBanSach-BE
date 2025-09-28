@@ -1,3 +1,4 @@
+using BTL_QuanLiBanSach.DTOs.Request;
 using BTL_QuanLiBanSach.Repositories;
 using BTL_QuanLiBanSach.Services;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -15,12 +16,12 @@ public class ProductController : ControllerBase
     {
         _productService = productService;
     }
-    
+
 
     [HttpGet]
-    public IActionResult FindAll()
+    public IActionResult FindAll([FromBody] ProductFilterRequest request)
     {
-        var products = _productService.FindAll();
+        var products = _productService.SearchProduct(request);
         return Ok(products);
     }
 }
