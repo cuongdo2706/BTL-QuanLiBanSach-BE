@@ -9,8 +9,9 @@ builder.Services.AddScoped<ProductService>();
 builder.Services.AddScoped<CategoryRepository>();
 builder.Services.AddScoped<CategoryService>();
 builder.Services.AddScoped<AuthorRepository>();
-
 builder.Services.AddScoped<AuthorService>();
+builder.Services.AddScoped<PublisherRepository>();
+builder.Services.AddScoped<PublisherService>();
 builder.Services.AddControllers().AddJsonOptions(x =>
     x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles
 );;

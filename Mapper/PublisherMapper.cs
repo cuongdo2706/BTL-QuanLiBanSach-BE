@@ -9,4 +9,10 @@ public class PublisherMapper
     {
         return new PublisherResponse(publisher.Id, publisher.Name);
     }
+    public static List<PublisherResponse> ToPublisherResponses(List<Publisher> publishers)
+    {
+        return publishers
+            .Select(ToPublisherResponse)
+            .ToList();
+    }
 }
