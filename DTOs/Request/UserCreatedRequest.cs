@@ -2,11 +2,11 @@ namespace BTL_QuanLiBanSach.DTOs.Request;
 
 public class UserCreatedRequest
 {
-    public string code { get; set; }
-    public string? address { get; set; }
-    public DateOnly dob { get; set; }
-    public string email { get; set; }
-    public bool gender { get; set; }
-    public string name { get; set; }
-    public string phoneNum { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Email { get; set; } = string.Empty;
+    public string PhoneNum { get; set; } = string.Empty;
+    public string Address { get; set; } = string.Empty;
+    public string Code { get; set; } = string.Empty;
+    public DateOnly? Dob { get; set; }
+    public bool? Gender { get; set; }
 }
