@@ -22,6 +22,13 @@ namespace BTL_QuanLiBanSach.Controllers
             return Ok(await _customerService.GetAllCustomersAsync());
         }
 
+        [HttpPost("search")]
+        public async Task<ActionResult<List<UserResponse>>> SearchCustomers([FromBody] UserFilterRequest request)
+        {
+            var result = await _customerService.SearchCustomer(request);
+            return Ok(result);
+        }
+
         [HttpGet("{id}")]
         public async Task<ActionResult<UserResponse>> GetById(int id)
         {
