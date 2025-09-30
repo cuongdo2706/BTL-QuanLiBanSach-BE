@@ -7,8 +7,10 @@ public class PublisherMapper
 {
     public static PublisherResponse ToPublisherResponse(Publisher publisher)
     {
-        return new PublisherResponse(publisher.Id, publisher.Name);
+        if (publisher != null) return new PublisherResponse(publisher.Id, publisher.Name);
+        else return null;
     }
+
     public static List<PublisherResponse> ToPublisherResponses(List<Publisher> publishers)
     {
         return publishers

@@ -18,12 +18,12 @@ namespace BTL_QuanLiBanSach.Services
         {
             return AuthorMapper.ToAuthorResponses(_authorRepository.GetAllAuthor().Result);
         }
-        public Page<List<AuthorResponse>> SearchAuthorPages(string? name, int page, int pageSize)
+        public PageResponse<AuthorResponse> SearchAuthorPages(string? name, int page, int pageSize)
         {
             var (authors, currentPages, totalPages, totalItems, pageSizeResult) = _authorRepository.GetAllAuthorPages(name, page, pageSize).Result;
             var authorResponses = AuthorMapper.ToAuthorResponses(authors);
 
-            return new Page<List<AuthorResponse>>(content: authorResponses,
+            return new PageResponse<AuthorResponse>(content: authorResponses,
                 size: pageSizeResult,
                 page: currentPages,
                 totalElements: totalItems,

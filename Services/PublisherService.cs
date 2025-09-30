@@ -20,12 +20,12 @@ namespace BTL_QuanLiBanSach.Services
             return PublisherMapper.ToPublisherResponses(_publisherRepository.GetAllPublisher().Result);
         }
 
-        public Page<List<PublisherResponse>> GetAllPublisherPages(string? name, int page, int pageSize)
+        public PageResponse<PublisherResponse> GetAllPublisherPages(string? name, int page, int pageSize)
         {
             var (publishers, currentPages, totalPages, totalItems, pageSizeResult) = _publisherRepository.GetAllPublisherPages(name, page, pageSize).Result;
             var publisherResponses = PublisherMapper.ToPublisherResponses(publishers);
 
-            return new Page<List<PublisherResponse>>(content: publisherResponses,
+            return new PageResponse<PublisherResponse>(content: publisherResponses,
                 size: pageSizeResult,
                 page: currentPages,
                 totalElements: totalItems,

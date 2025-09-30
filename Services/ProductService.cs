@@ -14,8 +14,13 @@ public class ProductService
         _productRepository = productRepository;
     }
 
-    public List<ProductResponse> SearchProduct(ProductFilterRequest request)
+    public PageResponse<ProductResponse> SearchProduct(ProductFilterRequest request)
     {
-        return ProductMapper.ToProductResponses(_productRepository.SearchProduct(request).Result);
+        return _productRepository.SearchProduct(request).Result;
+    }
+
+    public ProductResponse FindById(long id)
+    {
+        return _productRepository.FindById(id).Result;
     }
 }
