@@ -12,6 +12,7 @@ builder.Services.AddScoped<AuthorRepository>();
 builder.Services.AddScoped<AuthorService>();
 builder.Services.AddScoped<PublisherRepository>();
 builder.Services.AddScoped<PublisherService>();
+builder.Services.AddScoped<CloudinaryService>();
 builder.Services.AddControllers().AddJsonOptions(x =>
     x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles
 );
@@ -40,6 +41,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
 app.MapControllers();
 
 app.UseHttpsRedirection();

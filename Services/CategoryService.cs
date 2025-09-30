@@ -20,7 +20,10 @@ namespace BTL_QuanLiBanSach.Services
 
             return CategoryMapper.ToCategoryResponses(_categoryRepository.GetAllCategory().Result);
         }
-
+        public List<Category> GetAllByIds(List<long> ids)
+        {
+            return _categoryRepository.GetAllByIds(ids).Result;
+        }
         public PageResponse<CategoryResponse> GeachCategoryPages(string? name, int page, int pageSize)
         {
             var (categorys, currentPages, totalPages, totalItems, pageSizeResult) = _categoryRepository.GetAllCategoryPages(name, page, pageSize).Result;

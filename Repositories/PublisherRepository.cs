@@ -19,7 +19,7 @@ namespace BTL_QuanLiBanSach.Repositories
                 .Where(p => !p.IsDeleted)
                 .ToListAsync();
         }
-
+        
         public async Task<(List<Publisher> Publishers, int CurrentPage, int TotalPages, int TotalItems, int PageSize)> GetAllPublisherPages(string? name, int page, int pageSize)
         {
             // Mặc định là chỉ lấy những NXB chưa bị xóa

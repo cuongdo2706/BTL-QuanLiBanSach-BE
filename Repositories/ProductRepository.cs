@@ -56,7 +56,7 @@ public class ProductRepository
         int totalElements = await query.CountAsync();
         int skip = (request.page - 1) * request.size;
         var products = await query
-            .Where(p => p.IsActive == request.isActive)
+            .Where(p => p.IsActive == request.isActive&&!p.IsDeleted)
             .Include(p => p.Authors)
             .Include(p => p.Categories)
             .Include(p => p.Publisher)
@@ -68,14 +68,28 @@ public class ProductRepository
             (int)Math.Ceiling(totalElements / (double)request.size));
     }
 
-    public async Task<ProductResponse> FindById(long id)
+    public async Task<Product> FindById(long id)
     {
-        Product product = await _context.Products
+        return await _context.Products
             .Include(p => p.Authors)
             .Include(p => p.Categories)
             .Include(p => p.Publisher)
-            .Where(p=>p.Id==id&&p.IsDeleted==false)
+            .Where(p => p.Id == id && !p.IsDeleted)
             .SingleAsync();
-        return ProductMapper.ToProductResponse(product);
+        ;
+    }
+
+    public async Task<Product> Save(Product product)
+    {
+        Product newProduct = _context.Products.Add(product).Entity;
+        await _context.SaveChangesAsync();
+        return newProduct;
+    }
+
+    public async Task<Product> Update(Product product)
+    {
+        Product newProduct = _context.Products.Update(product).Entity;
+        await _context.SaveChangesAsync();
+        return newProduct;
     }
 }

@@ -18,9 +18,16 @@ namespace BTL_QuanLiBanSach.Services
         {
             return AuthorMapper.ToAuthorResponses(_authorRepository.GetAllAuthor().Result);
         }
+
+        public List<Author> GetAllByIds(List<long> ids)
+        {
+            return _authorRepository.GetAllByIds(ids).Result;
+        }
+
         public PageResponse<AuthorResponse> SearchAuthorPages(string? name, int page, int pageSize)
         {
-            var (authors, currentPages, totalPages, totalItems, pageSizeResult) = _authorRepository.GetAllAuthorPages(name, page, pageSize).Result;
+            var (authors, currentPages, totalPages, totalItems, pageSizeResult) =
+                _authorRepository.GetAllAuthorPages(name, page, pageSize).Result;
             var authorResponses = AuthorMapper.ToAuthorResponses(authors);
 
             return new PageResponse<AuthorResponse>(content: authorResponses,
@@ -29,6 +36,7 @@ namespace BTL_QuanLiBanSach.Services
                 totalElements: totalItems,
                 totalPages: totalPages);
         }
+
         public async Task<AuthorResponse?> FindByIdAsync(long id)
         {
             var author = await _authorRepository.FindByIdAsync(id);
@@ -74,6 +82,5 @@ namespace BTL_QuanLiBanSach.Services
         {
             return await _authorRepository.DeleteAsync(id);
         }
-
     }
 }

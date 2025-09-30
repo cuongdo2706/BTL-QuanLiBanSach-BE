@@ -21,6 +21,10 @@ namespace BTL_QuanLiBanSach.Repositories
                 Where(c =>!c.IsDeleted)
                 .ToListAsync();
         }
+        public async Task<List<Category>> GetAllByIds(List<long> ids)
+        {
+            return await _context.Categories.Where(c => ids.Contains(c.Id)&&!c.IsDeleted).ToListAsync();
+        }
         public async Task<(List<Category> Categories, int CurrentPage, int TotalPages, int TotalItems, int PageSize)> GetAllCategoryPages(string? name, int page, int pageSize)
         {
             // mac dinh la phai tim loai chua bi xoa

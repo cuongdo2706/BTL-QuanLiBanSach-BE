@@ -38,6 +38,12 @@ namespace BTL_QuanLiBanSach.Services
             return publisher != null ? PublisherMapper.ToPublisherResponse(publisher) : null;
         }
 
+        public Publisher FindEntityById(long id)
+        {
+            return _publisherRepository.FindByIdAsync(id).Result;
+        }
+        
+        
         public async Task<PublisherResponse> CreateAsync(PublisherCreateRequest request)
         {
             // Kiểm tra tên nhà xuất bản đã tồn tại chưa

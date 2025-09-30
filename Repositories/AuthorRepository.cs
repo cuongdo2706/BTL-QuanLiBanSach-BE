@@ -12,12 +12,19 @@ namespace BTL_QuanLiBanSach.Repositories
         {
             _context = context;
         }
+
         public async Task<List<Author>> GetAllAuthor()
         {
             return await _context.Authors.Where(c => !c.IsDeleted).ToListAsync();
         }
 
-        public async Task<(List<Author> Authors, int CurrentPage, int TotalPages, int TotalItems, int PageSize)> GetAllAuthorPages(string? name, int page, int pageSize)
+        public async Task<List<Author>> GetAllByIds(List<long> ids)
+        {
+            return await _context.Authors.Where(a => ids.Contains(a.Id)&&!a.IsDeleted).ToListAsync();
+        }
+
+        public async Task<(List<Author> Authors, int CurrentPage, int TotalPages, int TotalItems, int PageSize)>
+            GetAllAuthorPages(string? name, int page, int pageSize)
         {
             var query = _context.Authors.Where(c => !c.IsDeleted);
             if (!string.IsNullOrEmpty(name))
@@ -37,6 +44,7 @@ namespace BTL_QuanLiBanSach.Repositories
                 .ToListAsync();
             return (authors, page, totalPages, totalItems, pageSize);
         }
+
         public async Task<Author?> FindByIdAsync(long id)
         {
             return await _context.Authors
@@ -85,6 +93,5 @@ namespace BTL_QuanLiBanSach.Repositories
             await _context.SaveChangesAsync();
             return true;
         }
-
     }
 }
