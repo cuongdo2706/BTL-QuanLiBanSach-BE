@@ -6,8 +6,8 @@ public class ProductFilterRequest
     public int size { get; set; }
     public string? sortBy { get; set; }
     public string? nameOrCodeKeyword { get; set; }
-    public bool isActive { get; set; }
-    public List<long> categoryIds { get; set; }
-    public List<long> publisherIds { get; set; }
-    public List<long> authorIds { get; set; }
+    public bool isActive { get; set; } = true;
+    public List<long>? categoryIds { get; set; }
+    public List<long>? publisherIds { get; set; }
+    public List<long>? authorIds { get; set; }
 }

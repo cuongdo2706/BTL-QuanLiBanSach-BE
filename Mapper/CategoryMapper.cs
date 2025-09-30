@@ -1,8 +1,6 @@
 using BTL_QuanLiBanSach.DTOs.Response;
 using BTL_QuanLiBanSach.Entities;
 
-namespace BTL_QuanLiBanSach.Services;
-
 public class CategoryMapper
 {
     public static CategoryResponse ToCategoryResponse(Category category)
@@ -16,4 +14,6 @@ public class CategoryMapper
             .Select(ToCategoryResponse)
             .ToList();
     }
+
+
 }
