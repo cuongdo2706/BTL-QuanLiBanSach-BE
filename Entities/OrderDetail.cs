@@ -19,7 +19,7 @@ public class OrderDetail
     public int Quantity { get; set; }
     [Column("total_price",TypeName = "decimal(19,2)")]
     public decimal TotalPrice { get; set; }
-    [Column("order_id",TypeName = "decimal(19,2)")]
+    [Column("order_id")]
     [Required]
     public long OrderId { get; set; }
     [ForeignKey(nameof(OrderId))]

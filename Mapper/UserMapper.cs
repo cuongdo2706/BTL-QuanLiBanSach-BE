@@ -26,4 +26,9 @@ public class UserMapper
     {
         return users.Select(ToUserResponse).ToList();
     }
+
+    public static UserResponse ToResponse(User users)
+    {
+        return ToUserResponse(users);
+    }
 }

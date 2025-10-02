@@ -92,4 +92,15 @@ public class ProductRepository
         await _context.SaveChangesAsync();
         return newProduct;
     }
+
+    public async Task<Product> GetByIdAsync(long productId)
+    {
+        var product = await _context.Products
+            .FirstOrDefaultAsync(p => p.Id == productId);
+
+        if (product == null)
+            throw new InvalidOperationException($"Product with Id {productId} not found");
+
+        return product;
+    }
 }
