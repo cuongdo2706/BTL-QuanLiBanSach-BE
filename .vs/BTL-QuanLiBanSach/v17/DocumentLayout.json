@@ -1,46 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\",
+  "WorkspaceRootPath": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|c:\\users\\admin\\source\\repos\\btl-quanlibansach-be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|c:\\users\\admin\\source\\repos\\btl-quanlibansach-be\\mapper\\authormapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:mapper\\authormapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|c:\\users\\admin\\source\\repos\\btl-quanlibansach-be\\repositories\\publisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:repositories\\publisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|c:\\users\\admin\\source\\repos\\btl-quanlibansach-be\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\repositories\\userrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:repositories\\userrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|c:\\users\\admin\\source\\repos\\btl-quanlibansach-be\\services\\publisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:services\\publisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\mapper\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:mapper\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|c:\\users\\admin\\source\\repos\\btl-quanlibansach-be\\mapper\\publishermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:mapper\\publishermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\mapper\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:mapper\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|c:\\users\\admin\\source\\repos\\btl-quanlibansach-be\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|c:\\users\\admin\\source\\repos\\btl-quanlibansach-be\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\dtos\\response\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:dtos\\response\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\dtos\\response\\categoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:dtos\\response\\categoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\dtos\\request\\categorycreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:dtos\\request\\categorycreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\dtos\\request\\userfilterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:dtos\\request\\userfilterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\dtos\\request\\usercreatedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:dtos\\request\\usercreatedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|c:\\users\\admin\\source\\repos\\btl-quanlibansach-be\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|c:\\users\\admin\\source\\repos\\btl-quanlibansach-be\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\dtos\\request\\userupdatedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:dtos\\request\\userupdatedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\mapper\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:mapper\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|d:\\btl_laptrinhweb\\btl-quanlibansach-be\\dtos\\response\\publisherresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D852678D-3CB9-44B0-A9E3-5FEAA5CF92A0}|BTL-QuanLiBanSach.csproj|solutionrelative:dtos\\response\\publisherresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,147 +94,281 @@
       "DocumentGroups": [
         {
           "DockedWidth": 199,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T10:42:07.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryMapper.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Mapper\\CategoryMapper.cs",
+              "RelativeDocumentMoniker": "Mapper\\CategoryMapper.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Mapper\\CategoryMapper.cs",
+              "RelativeToolTip": "Mapper\\CategoryMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T10:06:25.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Entities\\Category.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Entities\\Category.cs",
+              "RelativeToolTip": "Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T10:04:15.344Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswHoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T12:35:49.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAIwGkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T13:05:40.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Services\\CategoryService.cs",
-              "RelativeToolTip": "Services\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswBQAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T13:11:58.763Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthorMapper.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Mapper\\AuthorMapper.cs",
-              "RelativeDocumentMoniker": "Mapper\\AuthorMapper.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Mapper\\AuthorMapper.cs",
-              "RelativeToolTip": "Mapper\\AuthorMapper.cs",
+              "DocumentIndex": 10,
+              "Title": "CategoryResponse.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Response\\CategoryResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\Response\\CategoryResponse.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Response\\CategoryResponse.cs",
+              "RelativeToolTip": "DTOs\\Response\\CategoryResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T14:21:28.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PublisherMapper.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Mapper\\PublisherMapper.cs",
-              "RelativeDocumentMoniker": "Mapper\\PublisherMapper.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Mapper\\PublisherMapper.cs",
-              "RelativeToolTip": "Mapper\\PublisherMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T14:19:09.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PublisherService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Services\\PublisherService.cs",
-              "RelativeDocumentMoniker": "Services\\PublisherService.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Services\\PublisherService.cs",
-              "RelativeToolTip": "Services\\PublisherService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T14:16:06.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PublisherController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Controllers\\PublisherController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PublisherController.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Controllers\\PublisherController.cs",
-              "RelativeToolTip": "Controllers\\PublisherController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAqwHoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T14:16:21.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PublisherRepository.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Repositories\\PublisherRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\PublisherRepository.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Repositories\\PublisherRepository.cs",
-              "RelativeToolTip": "Repositories\\PublisherRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T14:13:56.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T13:29:42.789Z",
+              "WhenOpened": "2025-09-29T05:49:16.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AuthorController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Controllers\\AuthorController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthorController.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\BTL-QuanLiBanSach-BE\\Controllers\\AuthorController.cs",
-              "RelativeToolTip": "Controllers\\AuthorController.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAswF4AAAAJAAAAAAAAAA==",
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Response\\UserResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\Response\\UserResponse.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Response\\UserResponse.cs",
+              "RelativeToolTip": "DTOs\\Response\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T13:21:26.002Z",
+              "WhenOpened": "2025-09-28T15:17:01.206Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:09:24.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Mapper\\UserMapper.cs",
+              "RelativeDocumentMoniker": "Mapper\\UserMapper.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Mapper\\UserMapper.cs",
+              "RelativeToolTip": "Mapper\\UserMapper.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:36:05.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepositories.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Repositories\\UserRepositories.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepositories.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Repositories\\UserRepositories.cs",
+              "RelativeToolTip": "Repositories\\UserRepositories.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:29:16.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvzwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:32:45.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:41:32.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryCreateRequest.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Request\\CategoryCreateRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Request\\CategoryCreateRequest.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Request\\CategoryCreateRequest.cs",
+              "RelativeToolTip": "DTOs\\Request\\CategoryCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T05:49:02.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserFilterRequest.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Request\\UserFilterRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Request\\UserFilterRequest.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Request\\UserFilterRequest.cs",
+              "RelativeToolTip": "DTOs\\Request\\UserFilterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:17:09.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserCreatedRequest.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Request\\UserCreatedRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Request\\UserCreatedRequest.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Request\\UserCreatedRequest.cs",
+              "RelativeToolTip": "DTOs\\Request\\UserCreatedRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:17:26.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:37:23.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:12:24.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:32:54.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:12:30.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserUpdatedRequest.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Request\\UserUpdatedRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Request\\UserUpdatedRequest.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Request\\UserUpdatedRequest.cs",
+              "RelativeToolTip": "DTOs\\Request\\UserUpdatedRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:15:56.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:30:38.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductMapper.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Mapper\\ProductMapper.cs",
+              "RelativeDocumentMoniker": "Mapper\\ProductMapper.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\Mapper\\ProductMapper.cs",
+              "RelativeToolTip": "Mapper\\ProductMapper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:36:16.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PublisherResponse.cs",
+              "DocumentMoniker": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Response\\PublisherResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\Response\\PublisherResponse.cs",
+              "ToolTip": "D:\\BTL_LaptrinhWeb\\BTL-QuanLiBanSach-BE\\DTOs\\Response\\PublisherResponse.cs",
+              "RelativeToolTip": "DTOs\\Response\\PublisherResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:19:00.854Z"
             }
           ]
         }

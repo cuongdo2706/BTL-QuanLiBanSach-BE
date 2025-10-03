@@ -14,9 +14,14 @@ builder.Services.AddScoped<AuthorRepository>();
 builder.Services.AddScoped<AuthorService>();
 builder.Services.AddScoped<PublisherRepository>();
 builder.Services.AddScoped<PublisherService>();
+<<<<<<< HEAD
 builder.Services.AddScoped<CloudinaryService>();
 builder.Services.AddScoped<OrderService>();
 builder.Services.AddScoped<OrderRepository>();
+=======
+builder.Services.AddScoped<UserRepository>();
+builder.Services.AddScoped<UserService>();
+>>>>>>> origin/huy_huong
 builder.Services.AddControllers().AddJsonOptions(x =>
     x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles
 );
