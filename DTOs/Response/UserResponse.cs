@@ -9,5 +9,4 @@ public record UserResponse(
     bool? gender,
     string name,
     string? phoneNum,
-    bool isDeleted,
     bool userType);

@@ -23,10 +23,9 @@ public class CustomerService
     }
 
     // Tìm kiếm khách hàng
-    public async Task<List<UserResponse>> SearchCustomer(UserFilterRequest request)
+    public PageResponse<UserResponse> SearchCustomer(UserFilterRequest request)
     {
-        var customers = await _customerRepo.SearchCustomer(request);
-        return customers.Select(UserMapper.ToUserResponse).ToList();
+        return _customerRepo.SearchCustomer(request).Result;
     }
 
     // Lấy theo Id
@@ -39,10 +38,9 @@ public class CustomerService
     // Tạo mới khách hàng
     public async Task<UserResponse> Create(UserCreatedRequest request)
     {
-        var existing = await _customerRepo.SearchCustomer(new UserFilterRequest { Email = request.Email });
-        if (existing.Any())
+        if (_customerRepo.ExistedByPhoneNum(request.PhoneNum).Result)
         {
-            throw new Exception("Email đã tồn tại!");
+            throw new Exception("SDT đã tồn tại!");
         }
 
         var newCustomer = new User

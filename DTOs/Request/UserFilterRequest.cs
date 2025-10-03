@@ -2,7 +2,8 @@ namespace BTL_QuanLiBanSach.DTOs.Request;
 
 public class UserFilterRequest
 {
-    public string? Name { get; set; }
-    public string? Email { get; set; }
-    public string? PhoneNum { get; set; }
+    public int page { get; set; }
+    public int size { get; set; }
+    public string? sortBy { get; set; }
+    public string? nameOrCodeOrPhoneNumKeyword { get; set; }
 }

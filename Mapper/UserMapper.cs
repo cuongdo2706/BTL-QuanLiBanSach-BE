@@ -15,9 +15,8 @@ public class UserMapper
             user.Dob,
             user.Email,
             user.Gender,
-            user.PhoneNum,
             user.Name,
-            user.IsDeleted,
+            user.PhoneNum,
             user.UserType
         );
     }

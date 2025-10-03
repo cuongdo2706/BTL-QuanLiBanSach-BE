@@ -5,7 +5,7 @@ using BTL_QuanLiBanSach.DTOs.Response;
 
 namespace BTL_QuanLiBanSach.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("customer")]
     [ApiController]
     public class CustomerController : ControllerBase
     {
@@ -23,9 +23,9 @@ namespace BTL_QuanLiBanSach.Controllers
         }
 
         [HttpPost("search")]
-        public async Task<ActionResult<List<UserResponse>>> SearchCustomers([FromBody] UserFilterRequest request)
+        public IActionResult SearchCustomers([FromBody] UserFilterRequest request)
         {
-            var result = await _customerService.SearchCustomer(request);
+            var result = _customerService.SearchCustomer(request);
             return Ok(result);
         }
 

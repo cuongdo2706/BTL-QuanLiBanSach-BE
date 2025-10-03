@@ -47,7 +47,7 @@ public class ProductRepository
             query = query.Where(p => p.Categories.Any(c => request.categoryIds.Contains(c.Id)));
         }
 
-        if (!request.nameOrCodeKeyword.IsNullOrEmpty())
+        if (!string.IsNullOrWhiteSpace(request.nameOrCodeKeyword))
         {
             query = query.Where(p =>
                 p.Name.Contains(request.nameOrCodeKeyword) || p.Code.Contains(request.nameOrCodeKeyword));
@@ -63,7 +63,10 @@ public class ProductRepository
             .Skip(skip)
             .Take(request.size)
             .ToListAsync();
-        return new PageResponse<ProductResponse>(ProductMapper.ToProductResponses(products), request.size, request.page,
+        return new PageResponse<ProductResponse>(
+            ProductMapper.ToProductResponses(products),
+            request.size,
+            request.page,
             totalElements,
             (int)Math.Ceiling(totalElements / (double)request.size));
     }
